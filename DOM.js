@@ -23,6 +23,6 @@ else{
 
 let para=document.getElementById("paratext");
 function changetextColor(){
-    para.style.backgroundColor="#"+Math.floor(Math.random() * 16777215).toString(16);
+    para.style.backgroundColor="  #"+Math.floor(Math.random() * 16777215).toString(16);
 }
 para.addEventListener('mouseover',changetextColor);
