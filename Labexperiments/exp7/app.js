@@ -32,7 +32,7 @@ function App() {
  marks="88"
  />
  <Student
- name="Sneha"
+ name="Navya"
  course="B.Tech IT"
  marks="92"
  />
