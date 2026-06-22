@@ -28,12 +28,12 @@ document.getElementById("toggleBtn").addEventListener("click", function () {
     if (paragraph.style.display === "none") {
         paragraph.style.display = "block";
     } else {
-        paragraph.style.display = "none";
+            paragraph.style.display = "none";
     }
 });
 
 // Reset page
-document.getElementById("resetBtn").addEventListener("click", function () {
+document.getElementById("resetButton").addEventListener("click", function () {
     heading.innerHTML = "Welcome to JavaScript Lab";
     paragraph.style.display = "block";
     paragraph.style.fontSize = "16px";
