@@ -24,7 +24,7 @@ else{
 grade = "F";
 }
 if(average >= 40){
-result = "PASS";
+Result =   "PASS";
 }
 else{
 result = "FAIL";
