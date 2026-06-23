@@ -25,7 +25,7 @@ public class StudentController {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
 
-        return new ResponseEntity<>(student, HttpStatus.OK);
+            return new ResponseEntity<>(student, HttpStatus.OK);
     }
 
     // POST student data
